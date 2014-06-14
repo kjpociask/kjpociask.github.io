@@ -143,6 +143,9 @@ body {
   .card .travel h4 {
     padding-top: 56px;
   }
+  #nav {
+    font-weight: 500;
+  }
 }
 
 .navbar-default {
