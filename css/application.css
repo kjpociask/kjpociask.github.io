@@ -155,7 +155,7 @@ body {
 }
 
 .work h3 {
-  background-color: rgba(0,0,0, .5);
+  background-color: rgba(0,0,0, .7);
   color: white;
   letter-spacing: .7px;
   margin: 0px;
@@ -169,4 +169,39 @@ body {
 
 .work:hover h3 {
   display: block;
+}
+
+#map {
+  height: 101vh;
+  width: 100%;
+  display: block;
+  margin-top: -4px;
+  /*padding-top: 48px;*/
+}
+
+.uh-oh {
+  background-color: rgba(255,255,255,.8);
+  color: #444;
+  position: absolute;
+  top: 50vh;
+  left: 30vw;
+  height: 200px;
+  width: 400px;
+  margin-left: -200px;
+  margin-top: -100px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.uh-oh a {
+  text-decoration: underline;
+}
+
+.navbar-default.four {
+  /*background-color: #18667e!important;*/
+  background-color: rgba(79,175,205, .7)!important;
+}
+
+.ol-zoom {
+  top: 4.8em!important
 }
