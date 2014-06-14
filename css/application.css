@@ -143,6 +143,9 @@ body {
   .card .travel h4 {
     padding-top: 56px;
   }
+  #nav {
+    background-color: rgba(123, 224, 247, .6); /*#7BE0F7;*/
+  }
 }
 
 .card h4:hover {
