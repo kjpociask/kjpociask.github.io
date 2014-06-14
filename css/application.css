@@ -4,6 +4,7 @@ body {
   background-color: #F3ffff;
 }
 
+
 .hero {
   height: 550px;
   background-image: url(../img/blanket_throwing.png);
@@ -79,6 +80,7 @@ body {
   background-position: center center;
   padding: 0px;
   margin: 0px;
+  margin-top: 5px;
 }
 
 .card .owl {
@@ -100,7 +102,7 @@ body {
   color: #FFF;
   text-align: center;
   font-size: 50px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   height: 200px;
   width: 100%;
   background: rgba(0,0,0, .3);
@@ -108,6 +110,7 @@ body {
   -webkit-transition: opacity .3s ease-in-out;
   cursor: pointer;
 }
+
 
 .card .owl h4 {
   font-size: 40px;
@@ -129,6 +132,17 @@ body {
   font-size: 40px;
   letter-spacing: .5px;
   position: relative;
+}
+
+@media (min-device-width: 320px) {
+  .card .travel h4 span {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    top: -5px;
+  }
+  .card .travel h4 {
+    padding-top: 56px;
+  }
 }
 
 .card h4:hover {
