@@ -25,29 +25,6 @@ body {
   display: none;
 }
 
-.hero .tag {
-  font-size: 60px;
-  margin-top: -50px;
-  margin-bottom: 18px;
-  font-weight: 100;
-  font-family: "Helvetica Neue"
-}
-
-.callout {
-  position: relative;
-  top: 105px;
-  left: -18px;
-  color:  rgba(231,135,125, 1);
-  color: #c04546;
-  text-transform: uppercase;
-  color: #FFF;
-}
-
-.hero p {
-  font-size: 20px;
-  display: none;
-}
-
 .card img {
   width: 100%
 }
@@ -86,7 +63,7 @@ body {
 }
 
 .navbar li a, .navbar-brand, .navbar-text {
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 2px;
   color: #81defb!important;
   color: #fff!important;
