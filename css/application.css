@@ -134,20 +134,6 @@ body {
   position: relative;
 }
 
-@media (min-device-width: 320px) {
-  .card .travel h4 span {
-    font-size: 30px;
-    letter-spacing: 1.2px;
-    top: -5px;
-  }
-  .card .travel h4 {
-    padding-top: 56px;
-  }
-  #nav li a{
-    font-weight: 500!important;
-  }
-}
-
 .navbar-default {
   background-color: rgba(123, 224, 247, .6)!important;
 }
@@ -236,4 +222,28 @@ body {
 
 .navbar-toggle:hover, .navbar-toggle:active {
   background-color: transparent!important;
+}
+
+@media (min-device-width: 320px) {
+  .card .travel h4 span {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    top: -5px;
+  }
+  .card .travel h4 {
+    padding-top: 56px;
+  }
+  #nav li a{
+    font-weight: 500!important;
+  }
+  .uh-oh {
+    margin: 10px;
+    top: 50px;
+    left: 0px;
+    height: 245px;
+    width: auto;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  .ol-zoom {display: none;}
 }
