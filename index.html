@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href="css/bootstrap.min.css" type="text/css" rel="StyleSheet" />
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css" rel="StyleSheet" />
+  <link href='http://fonts.googleapis.com/css?family=Kristi|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link href="css/application.css" type="text/css" rel="StyleSheet" />
+  <title>OMG SEXY</title>
+  <script type="text/javascript">
+    var max = 5;
+    var min = 0;
+    var maxsat = 2;
+    var $window = $(window);
+    var amt = 0;
+    var didScroll = false;
+    $(function() {
+      var maxHeight = ($("body").height() - window.innerHeight);
+      var hero = $(".hero");
+      $(window).on('scroll', function() {
+        didScroll = true;
+      });
+      setInterval(function() {
+        if(didScroll) {
+          didScroll = false;
+          amt = $window.scrollTop() / maxHeight;
+          hero.css("-webkit-filter","blur(" + (amt * max) + "px)");
+        }
+      }, 200)
+    });
+  </script>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+       <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Kate Pociask</a>
+      </div>
+
+      <div class="navbar-text collapse navbar-collapse">
+        <marquee>Creative director since kindergarten</marquee>
+      </div>
+      <div class="navbar-right collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Bio</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Other Pursuits </a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Around The Web <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.facebook.com/kjpociask"><span class="fa fa-facebook-square"></span> &nbsp;Facebook</a></li>
+              <li><a href="http://www.twitter.com/kjpociask"><span class="fa fa-twitter-square"></span>  &nbsp;Twitter</a></li>
+              <li><a href="http://www.linkedin.com/in/kjpociask/"><span class="fa fa-linkedin-square"></span>  &nbsp;LinkedIn</a></li>
+              <li><a href="https://www.goodreads.com/user/show/6254362-kate-pociask"><span class="fa fa-book"></span>  &nbsp;Goodreads</a></li>
+              <li><a href="http://instagram.com/kjpociask"><span class="fa fa-instagram"></span>  &nbsp;Instagram</a></li>
+              <li><a href="http://www.pinterest.com/kjpociask/"><span class="fa fa-pinterest"></span>  &nbsp;Pinterest</a></li>
+              <li><a href="http://cowbird.com/tqhkvv/stories/"><span class="fa fa-question-circle"></span> &nbsp;Cowbird</a></li>
+            </ul>
+          </li>
+          <li><a href="/bio.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="hero">
+    <div class="container">
+      <div class="col-md-12 callout">
+        <h1 class="grab">Kate Pociask</h1>
+        <p>
+          Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals.
+        </p>
+          <!-- <a href="#" class="btn btn-default btn-lg">See my work</a> -->
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <br /><br />
+    <div class="card col-md-4">
+      <div class="thumbnail owl">
+        <h4>
+          Given<br /> Gifts
+        </h4>
+      </div>
+
+    </div>
+    <div class="card col-md-4">
+      <div class="thumbnail dream">
+        <h4>
+          Dream<br /> Journal
+        </h4>
+      </div>
+    </div>
+    <div class="card col-md-4">
+      <div class="thumbnail travel">
+        <h4>
+          Travel <span>Photography</span>
+        </h4>
+      </div>
+    </div>
+  </div>
+  <br /><br />
+  <nav class="navbar navbar-inverse navbar-static-bottom" role="navigation">
+    <div class="container">
+      <p class='navbar-text'>Some kind of footer or something&hellip;</p>
+      <div class="navbar-right">
+        <p class='navbar-text'>&copy; Kate Pociask 2014</p>
+      </div>
+    </div>
+  </nav>
+</body>
+</html>

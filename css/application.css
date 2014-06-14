@@ -1,0 +1,195 @@
+body {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: #F3ffff;
+}
+
+.hero {
+  height: 550px;
+  background-image: url(../img/blanket_throwing.png);
+  background-size: cover;
+  background-position: center center;
+  color: #FFF;
+}
+
+.navbar-brand {
+  font-family: 'Kristi';
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.hero .grab {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Kristi';
+  display: none;
+}
+
+.hero .tag {
+  font-size: 60px;
+  margin-top: -50px;
+  margin-bottom: 18px;
+  font-weight: 100;
+  font-family: "Helvetica Neue"
+}
+
+.callout {
+  position: relative;
+  top: 105px;
+  left: -18px;
+  color:  rgba(231,135,125, 1);
+  color: #c04546;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.hero p {
+  font-size: 20px;
+  display: none;
+}
+
+.card img {
+  width: 100%
+}
+
+.hero .btn {
+  border-radius: 0px !important;
+  font-weight: 100;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+}
+
+.navbar-static-bottom {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-default {
+  background-color: transparent!important;
+  text-transform: uppercase;
+}
+
+.dropdown.open a {
+  background-color: rgba(255,255,255, .3)!important
+}
+
+.navbar .dropdown-menu li a {
+  color: #222!important;
+  text-transform: none;
+}
+
+.navbar .dropdown-menu li:hover {
+  background-color: #ddd;
+}
+
+.navbar li a, .navbar-brand, .navbar-text {
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: #81defb!important;
+  color: #fff!important;
+}
+
+.navbar-text {
+  font-weight: 200;
+}
+
+.card .thumbnail {
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.card .owl {
+  background-image: url(../img/owl.png);
+  background-position: 0 41%;
+}
+
+.card .dream {
+  background-image: url(../img/doggie.png);
+  background-position: center 60%;
+}
+
+.card .travel {
+  background-image: url(../img/cliff-preview.png);
+}
+
+.card h4 {
+  margin: 0px;
+  color: #FFF;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  height: 200px;
+  width: 100%;
+  background: rgba(0,0,0, .3);
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-in-out;
+  cursor: pointer;
+}
+
+.card .owl h4 {
+  font-size: 40px;
+  padding-top: 48px;
+}
+
+.card .dream h4 {
+  font-size: 40px;
+  padding-top: 48px;
+}
+
+.card .travel h4 {
+  font-size: 40px;
+  letter-spacing: 8px;
+  padding-top: 48px;
+
+}
+.card .travel h4 span {
+  font-size: 40px;
+  letter-spacing: .5px;
+  position: relative;
+}
+
+.card h4:hover {
+  opacity: 0;
+}
+
+.nav-pills li a {
+  border-radius: 0px!important;
+}
+
+.work img {
+  -webkit-transition: -webkit-filter 1s;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.work.col-md-6 img {
+  height: 300px;
+  width: 465px;
+}
+
+.work:hover img {
+  -webkit-filter: grayscale(30%);
+}
+
+.work h3 {
+  background-color: rgba(0,0,0, .5);
+  color: white;
+  letter-spacing: .7px;
+  margin: 0px;
+  padding: 15px 20px;
+  margin-right: 5px;
+  z-index: 300;
+  margin-bottom: -56px;
+  position: relative;
+  top: -56px;
+}
+
+.work:hover h3 {
+  display: block;
+}
