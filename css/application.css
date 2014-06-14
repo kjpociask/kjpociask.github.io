@@ -205,3 +205,15 @@ body {
 .ol-zoom {
   top: 4.8em!important
 }
+
+.icon-bar {
+  background-color: #fff!important;
+}
+
+.navbar-toggle {
+  border-color: #fff!important;
+}
+
+.navbar-toggle:hover, .navbar-toggle:active {
+  background-color: transparent!important;
+}
