@@ -287,6 +287,6 @@ and (max-device-width : 568px) {
 
   .hero.short.bio {
     height: 200px;
-    background-size: 200% auto;
+    background-size: auto 200%;
   }
 }
