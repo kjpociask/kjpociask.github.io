@@ -1,0 +1,279 @@
+body,html {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
+.hero {
+  height: 550px;
+  background-image: url(../img/blanket_throwing.png);
+  background-size: cover;
+  background-position: center center;
+  color: #FFF;
+}
+
+.navbar-brand {
+  font-family: 'Kristi';
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.hero .grab {
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Kristi';
+  display: none;
+}
+
+.card img {
+  width: 100%
+}
+
+.hero .btn {
+  border-radius: 0px !important;
+  font-weight: 100;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 2px;
+  border: 1px solid #fff;
+}
+
+.navbar-static-bottom {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-default {
+  background-color: transparent!important;
+  text-transform: uppercase;
+}
+
+.dropdown.open a {
+  background-color: rgba(255,255,255, .3)!important
+}
+
+.navbar .dropdown-menu li a {
+  color: #222!important;
+  text-transform: none;
+}
+
+.navbar .dropdown-menu li:hover {
+  background-color: #ddd;
+}
+
+.navbar li a, .navbar-brand, .navbar-text {
+  font-weight: 200;
+  letter-spacing: 2px;
+  color: #81defb!important;
+  color: #fff!important;
+}
+
+.navbar-text {
+  font-weight: 200;
+}
+
+.card .thumbnail {
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.card .owl {
+  background-image: url(../img/owl.png);
+  background-position: 0 41%;
+}
+
+.card .dream {
+  background-image: url(../img/doggie.png);
+  background-position: center 60%;
+}
+
+.card .travel {
+  background-image: url(../img/cliff-preview.png);
+}
+
+.card h4 {
+  margin: 0px;
+  color: #FFF;
+  text-align: center;
+  font-size: 50px;
+  /*text-transform: uppercase;*/
+  height: 200px;
+  width: 100%;
+  background: rgba(0,0,0, .3);
+  opacity: 1;
+  -webkit-transition: opacity .3s ease-in-out;
+  cursor: pointer;
+}
+
+
+.card .owl h4 {
+  font-size: 40px;
+  padding-top: 48px;
+}
+
+.card .dream h4 {
+  font-size: 40px;
+  padding-top: 48px;
+}
+
+.card .travel h4 {
+  font-size: 40px;
+  letter-spacing: 8px;
+  padding-top: 48px;
+
+}
+.card .travel h4 span {
+  font-size: 40px;
+  letter-spacing: .5px;
+  position: relative;
+}
+
+.navbar-default {
+  background-color: rgba(123, 224, 247, .6)!important;
+}
+.card h4:hover {
+  opacity: 0;
+}
+
+.nav-pills li a {
+  border-radius: 0px!important;
+}
+
+.work.single .bg {
+  height: 570px;
+  background-position: 50% 20px !important;
+}
+
+.work .bg {
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.work .content {
+  background-color: rgba(0,0,0,.4);
+  background-color: rgba(123, 224, 247, .9)!important;
+  height: 100%;
+  margin: 0px;
+  padding: 20px;
+  color: #FFF;
+  display: none;
+  cursor: pointer;
+}
+
+.work:hover .content {
+  display: block;
+}
+ 
+.work:hover a:link {
+	text-decoration: none;
+}
+
+.work .content h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav .active a {
+  background-color: rgb(123, 224, 247)!important;
+  color: white !important;
+}
+
+.nav-pills li a {
+  color: rgb(96, 199, 222)!important;
+}
+
+.works .row {
+  margin-bottom: 18px;
+}
+
+#map {
+  height: 101vh;
+  width: 100%;
+  display: block;
+  margin-top: -4px;
+  /*padding-top: 48px;*/
+}
+
+.uh-oh {
+  background-color: rgba(255,255,255,.8);
+  color: #444;
+  position: absolute;
+  top: 50vh;
+  left: 30vw;
+  height: 245px;
+  width: 300px;
+  margin-left: -200px;
+  margin-top: -150px;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.uh-oh a {
+  text-decoration: underline;
+}
+
+.navbar-default.four {
+  /*background-color: #18667e!important;*/
+  background-color: rgba(79,175,205, .7)!important;
+}
+
+.ol-zoom {
+  top: 4.8em!important
+}
+
+.icon-bar {
+  background-color: #fff!important;
+}
+
+.navbar-toggle {
+  border-color: #fff!important;
+}
+
+.navbar-toggle:hover, .navbar-toggle:active {
+  background-color: transparent!important;
+}
+
+.navbar-blank.work li a,
+.navbar-blank a {
+  color: #444!important;
+}
+
+.navbar-blank.work {
+  background-color:white;
+  border-bottom: 1px solid #999;
+}
+
+
+.container-fluid.content {
+  padding-top: 80px;
+}
+
+@media (min-device-width: 320px) {
+  .card .travel h4 span {
+    font-size: 30px;
+    letter-spacing: 1.2px;
+    top: -5px;
+  }
+  .card .travel h4 {
+    padding-top: 56px;
+  }
+  #nav li a{
+    font-weight: 500!important;
+  }
+  .uh-oh {
+    margin: 10px;
+    top: 50px;
+    left: 0px;
+    height: 245px;
+    width: auto;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  .ol-zoom {display: none;}
+}
