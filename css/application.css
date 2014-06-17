@@ -176,6 +176,10 @@ body,html {
   display: block;
 }
 
+.work:hover a:link {
+	text-decoration: none;
+}
+
 .work .content h3 {
   padding: 0px;
   margin: 0px;
@@ -272,7 +276,6 @@ and (max-device-width : 568px) {
   #nav li a{
     font-weight: 500!important;
   }
-
   .uh-oh {
     margin: 10px;
     top: 50px;
