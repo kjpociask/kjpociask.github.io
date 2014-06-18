@@ -150,6 +150,17 @@ body,html {
   border-radius: 0px!important;
 }
 
+ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+blockquote {
+  font: 18px/22px; 
+  margin-left: 20px;
+  border-left: 2px dotted black;	
+}
+
 .work.single .bg {
   height: 570px;
   background-position: 50% 20px !important;
@@ -223,6 +234,7 @@ body,html {
 .uh-oh a {
   text-decoration: underline;
 }
+
 
 .navbar-default.four {
   /*background-color: #18667e!important;*/
