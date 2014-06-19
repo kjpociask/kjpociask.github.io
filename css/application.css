@@ -156,9 +156,9 @@ ul {
     padding: 0px;
 }
 blockquote {
-  font: 18px/22px; 
+  font: 18px/22px;
   margin-left: 20px;
-  border-left: 2px dotted black;	
+  border-left: 2px dotted black;
 }
 
 .work.single .bg {
@@ -167,7 +167,7 @@ blockquote {
 }
 
 .work .bg {
-  height: 300px;
+  height: 310px;
   background-size: cover;
   background-position: center center;
 }
@@ -303,5 +303,20 @@ and (max-device-width : 568px) {
   .hero.short.bio {
     height: 200px;
     background-size: auto 250%;
+  }
+}
+
+@media (max-width: 768px) {
+  .works .row {
+    margin-bottom: 0px;
+  }
+  .work {
+    margin-bottom: 20px;
+  }
+  .work .content {
+    overflow: scroll;
+  }
+  .work.single .bg {
+    background-position: center left!important;
   }
 }

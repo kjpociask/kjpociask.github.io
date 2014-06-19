@@ -1,27 +1,28 @@
 <!doctype html>
 <html lang="en-us">
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <link href="css/bootstrap.min.css" type="text/css" rel="StyleSheet" />
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" type="text/css" rel="StyleSheet" />
   <link href='http://fonts.googleapis.com/css?family=Kristi|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   <link href="css/application.css" type="text/css" rel="StyleSheet" />
-  <title>Kate's Work</title>
+  <title>Kate Pociask Portfolio | Creative Director</title>
 </head>
 <body>
   <nav class="navbar navbar-blank navbar-fixed-top work" role="navigation">
     <div class="container">
        <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
           <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="icon-bar" style="background-color:#222!important"></span>
+          <span class="icon-bar" style="background-color:#222!important"></span>
+          <span class="icon-bar" style="background-color:#222!important"></span>
         </button>
         <a class="navbar-brand" href="/" style="font-size: 26px;">Kate Pociask</a>
       </div>
-      <div class="navbar-right collapse navbar-collapse">
+      <div class="navbar-right collapse navbar-collapse" id="nav">
         <ul class="nav navbar-nav">
           <li><a href="bio.html">Bio</a></li>
           <li><a href="work.html">Work</a></li>
@@ -44,7 +45,7 @@
     </div>
   </nav>
   <div class="container-fluid content works">
-    <div class="col-md-3">
+    <div class="col-md-3 nav hidden-xs hidden-sm">
       <div class="affix col-md-3" data-spy="affix">
         <ul class="nav nav-pills nav-stacked col-md-12">
           <li class="active"><a href="">Brand/Identity</a></li>
@@ -56,7 +57,7 @@
     </div>
     <div class="col-md-9">
       <div class="row">
-        <div class="col-md-6 work" >
+        <div class="col-md-6 col-sm-6 work" >
             <a href="https://www.youtube.com/watch?v=54PrpsYdUeU" target="_blank"><div class="bg" style="background-image: url(img/work/at_the_beach.jpg)">
             <div class="content">
               <h3>At the Beach</h3>
@@ -70,7 +71,7 @@
             </div>
           </div></a>
         </div>
-        <div class="col-md-6 work">
+        <div class="col-md-6 col-sm-6 work">
           <a href="https://vimeo.com/43786299" target="_blank"><div class="bg" style="background-image: url(img/work/until_death.jpg)">
             <div class="content">
               <h3>Until Death</h3>
@@ -91,7 +92,7 @@ and 48 hours to go from blank page to a final film.
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 work" >
+        <div class="col-md-6 col-sm-6 work" >
            <a href="https://www.youtube.com/watch?v=vec7iQx61uI&index=4&list=UUi9gm-BENAMEVwKn2t7uHvA
 " target="_blank"><div class="bg" style="background-image: url(img/work/luz-sanmiguel.jpg); background-position: bottom left">
             <div class="content">
@@ -108,7 +109,7 @@ and 48 hours to go from blank page to a final film.
             </div>
           </div></a>
         </div>
-        <div class="col-md-6 work" >
+        <div class="col-md-6 col-sm-6 work" >
           <a href="https://www.youtube.com/watch?v=t78330r_jB8&list=UUi9gm-BENAMEVwKn2t7uHvA" target="_blank"><div class="bg" style="background-image: url(img/work/susan_gartell.jpg); background-position: bottom left">
             <div class="content">
               <h3>The Curtain Opens and It's Silent: Susan Gartell</h3>
@@ -125,7 +126,7 @@ and 48 hours to go from blank page to a final film.
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 work" >
+        <div class="col-md-6 col-sm-6 work" >
           <a href="https://www.youtube.com/watch?v=K07_2jkzI10&index=7&list=UUi9gm-BENAMEVwKn2t7uHvA" target="_blank"><div class="bg" style="background-image: url(img/work/alexandre_ferreira.png); background-position: bottom left">
             <div class="content">
               <h3>Bow to That Crazy Audience: Alexandre Ferreira </h3>
@@ -140,7 +141,7 @@ and 48 hours to go from blank page to a final film.
             </div>
           </div></a>
         </div>
-        <div class="col-md-6 work" >
+        <div class="col-md-6 col-sm-6 work" >
           <a href="https://www.youtube.com/watch?v=jFIdAK7sRus&list=UUi9gm-BENAMEVwKn2t7uHvA&index=5" target="_blank"><div class="bg" style="background-image: url(img/work/davit_hovhannisyan.png); background-position: bottom left">
             <div class="content">
               <h3>The Shortest in His Class: Davit Hovhannisyan</h3>
@@ -158,7 +159,7 @@ and 48 hours to go from blank page to a final film.
       </div>
       <div class="row">
         <div class="col-md-12 work single" >
-          <div class="bg" style="background-image: url(img/work/cover_photo.png)">
+          <div class="bg" style="background-image: url(img/work/cover_photo.png);">
             <div class="content">
               <h3>88Nine Radio Milwaukee App</h3>
               <h4>iOS App</h4>
