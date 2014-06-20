@@ -79,9 +79,9 @@ body,html {
   font-weight: 200;
 }
 
-a {
+/*a {
   color: rgb(123, 224, 247)!important;
-}
+}*/
 
 
 .card .thumbnail {
@@ -172,7 +172,7 @@ blockquote {
 }
 
 .work .bg {
-  height: 300px;
+  height: 310px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -310,5 +310,20 @@ and (max-device-width : 568px) {
   .hero.short.bio {
     height: 200px;
     background-size: auto 250%;
+  }
+}
+
+@media (max-width: 768px) {
+  .works .row {
+    margin-bottom: 0px;
+  }
+  .work {
+    margin-bottom: 20px;
+  }
+  .work .content {
+    overflow: scroll;
+  }
+  .work.single .bg {
+    background-position: center left!important;
   }
 }
