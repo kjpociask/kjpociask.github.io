@@ -31,6 +31,13 @@ body,html {
   background-position: top;
 }
 
+.hero.short.contact {
+  height: 300px;
+  background-image: url(../img/contact.jpg);
+  background-position: center 30%;
+}
+
+
 .card img {
   width: 100%
 }
