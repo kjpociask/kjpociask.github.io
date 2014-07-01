@@ -86,9 +86,26 @@ body,html {
   font-weight: 200;
 }
 
-/*a {
-  color: rgb(123, 224, 247)!important;
-}*/
+h1 {
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.indent h1 {
+  margin-left: 20px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 0;
+  margin-bottom 0;
+
+}
+
+a {
+  color: rgb(78, 187, 212)!important;
+}
 
 
 .card .thumbnail {
@@ -168,19 +185,51 @@ ul {
     padding: 0px;
 }
 blockquote {
-  font: 18px/22px;
-  margin-left: 20px;
-  border-left: 2px dotted black;
+  font-size: 24px;
+  font-family: 'Kristi';
+  color: #444444;
+  letter-spacing: .15em;
+  font-style: italic;
+  margin-left: 10px;
+  border-left: 1px dotted rgba(78, 187, 212, .8);
 }
 
 .work.single .bg {
-  height: 570px;
-  background-position: 50% 20px !important;
+  height: 470px;
+  background-position: center center;
+  background-size: contain !important;
+}
+
+.work.tall .bg {
+  height: 450px;
+}
+
+#yelltell .bg{
+  background-size: cover!important;
+}
+
+.work.double .bg {
+  height: 620px;
+  background-size: cover;
+  background-position: center -40px;;
+}
+
+.zoom80 .bg {
+  background-size: 75%!important;
+  background-position: 50% 62%!important;
+}
+
+.zoom .bg {
+  background-size: cover!important;
+}
+
+.top .bg {
+  background-position: center top!important;
 }
 
 .work .bg {
   height: 310px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -195,6 +244,21 @@ blockquote {
   display: none;
   cursor: pointer;
 
+}
+
+.work.quote {
+  display: table;
+}
+.work.quote .cont {
+  height: 470px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.work.quote blockquote {
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  border-left: 3px solid #ddd;
 }
 
 .work:hover .content {
@@ -286,6 +350,10 @@ blockquote {
   padding-top: 80px;
 }
 
+#proxy .bg{
+  background-position: 50% 29%;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -318,19 +386,89 @@ and (max-device-width : 568px) {
     height: 200px;
     background-size: auto 250%;
   }
+
+}
+
+@media (max-width: 550px) {
+  .work.tall .bg {
+    height: 310px;
+  }
+
+  .work.single .bg,
+  .work.quote .cont {
+    height: 430px;
+  }
 }
 
 @media (max-width: 768px) {
+
   .works .row {
     margin-bottom: 0px;
   }
   .work {
     margin-bottom: 20px;
+
   }
   .work .content {
     overflow: scroll;
   }
   .work.single .bg {
     background-position: center left!important;
+  }
+
+  .work#proxy .bg {
+    background-position: 50% 47%!important;
+  }
+
+  .work#beauty .bg {
+    background-position: 50% 44%!important;
+  }
+  .work.quote {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  #proxy .bg {
+    background-position: 50% 76%!important;
+  }
+
+  .work .bg {
+    background-size: cover;
+  }
+
+  .kill1200 {
+    display: none!important;
+  }
+}
+
+
+@media (max-width: 990px){
+  .works.container {
+    width: 100%!important;
+  }
+  #proxy .bg {
+    background-position: 50% 62%!important;
+  }
+  .work.quote blockquote {
+    font-size: 20px;
+  }
+
+}
+
+
+@media (max-width: 850px) {
+  #artis .bg {
+    background-position: left!important;
+  }
+  #proxy .bg {
+    background-position: 50% 58%!important;
+  }
+  #proxy p {
+    line-height: 1.3em;
+  }
+  .single .bg {
+    background-size: contain;
   }
 }
