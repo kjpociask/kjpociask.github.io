@@ -199,9 +199,13 @@ blockquote {
   background-position: 50% 20px !important;
 }
 
+.work.tall .bg {
+  height: 450px;
+}
+
 .work .bg {
   height: 310px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
