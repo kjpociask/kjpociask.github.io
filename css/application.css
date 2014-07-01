@@ -400,3 +400,13 @@ and (max-device-width : 568px) {
     display: none!important;
   }
 }
+
+
+@media (max-width: 990px){
+  .works.container {
+    width: 100%!important;
+  }
+  #proxy .bg {
+    background-position: 50% 62%!important;
+  }
+}
