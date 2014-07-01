@@ -330,6 +330,10 @@ blockquote {
   padding-top: 80px;
 }
 
+#proxy .bg{
+  background-position: 50% 29%;
+}
+
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 568px) {
@@ -381,4 +385,18 @@ and (max-device-width : 568px) {
     background-position: center left!important;
   }
 
+}
+
+@media (max-width: 1200px) {
+  #proxy .bg {
+    background-position: 50% 76%!important;
+  }
+
+  .work .bg {
+    background-size: cover;
+  }
+
+  .kill1200 {
+    display: none!important;
+  }
 }
