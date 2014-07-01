@@ -203,6 +203,25 @@ blockquote {
   height: 450px;
 }
 
+.work.double .bg {
+  height: 620px;
+  background-size: cover;
+  background-position: center -40px;;
+}
+
+.zoom80 .bg {
+  background-size: 75%!important;
+  background-position: 50% 62%!important;
+}
+
+.zoom .bg {
+  background-size: cover!important;
+}
+
+.top .bg {
+  background-position: center top!important;
+}
+
 .work .bg {
   height: 310px;
   background-size: contain;
