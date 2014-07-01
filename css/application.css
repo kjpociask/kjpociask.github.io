@@ -195,12 +195,17 @@ blockquote {
 }
 
 .work.single .bg {
-  height: 570px;
-  background-position: 50% 20px !important;
+  height: 470px;
+  background-position: center center;
+  background-size: contain !important;
 }
 
 .work.tall .bg {
   height: 450px;
+}
+
+#yelltell .bg{
+  background-size: cover!important;
 }
 
 .work.double .bg {
@@ -239,6 +244,21 @@ blockquote {
   display: none;
   cursor: pointer;
 
+}
+
+.work.quote {
+  display: table;
+}
+.work.quote .cont {
+  height: 470px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.work.quote blockquote {
+  font-family: 'Helvetica Neue';
+  font-weight: 100;
+  border-left: 3px solid #ddd;
 }
 
 .work:hover .content {
@@ -366,13 +386,24 @@ and (max-device-width : 568px) {
     height: 200px;
     background-size: auto 250%;
   }
+
+}
+
+@media (max-width: 550px) {
+  .work.tall .bg {
+    height: 310px;
+  }
+
+  .work.single .bg,
+  .work.quote .cont {
+    height: 430px;
+  }
 }
 
 @media (max-width: 768px) {
+
   .works .row {
     margin-bottom: 0px;
-    border: 1px solid blue;
-
   }
   .work {
     margin-bottom: 20px;
@@ -383,6 +414,17 @@ and (max-device-width : 568px) {
   }
   .work.single .bg {
     background-position: center left!important;
+  }
+
+  .work#proxy .bg {
+    background-position: 50% 47%!important;
+  }
+
+  .work#beauty .bg {
+    background-position: 50% 44%!important;
+  }
+  .work.quote {
+    display: none;
   }
 
 }
@@ -408,5 +450,25 @@ and (max-device-width : 568px) {
   }
   #proxy .bg {
     background-position: 50% 62%!important;
+  }
+  .work.quote blockquote {
+    font-size: 20px;
+  }
+
+}
+
+
+@media (max-width: 850px) {
+  #artis .bg {
+    background-position: left!important;
+  }
+  #proxy .bg {
+    background-position: 50% 58%!important;
+  }
+  #proxy p {
+    line-height: 1.3em;
+  }
+  .single .bg {
+    background-size: contain;
   }
 }
